@@ -51,19 +51,19 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Python Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Graphics Designer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Automation Scripter",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "IoT Enthusiast",
     icon: creator,
   },
 ];

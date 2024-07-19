@@ -70,12 +70,13 @@ export const config: TConfig = {
   sections: {
     about: {
       p: "Introduction",
-      h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      h2: "Overview",
+      content: `I'm a versatile programmer and graphics designer with expertise in Python and C#. 
+      My skills extend to Adobe Creative Suite and Figma for visual design. 
+      I'm passionate about scripting, particularly in Python and shell scripting, to automate and optimize workflows. 
+      With experience in Arduino, Wemos, and Raspberry Pi projects, I bridge software and hardware. 
+      I'm a quick learner, always eager to tackle new challenges and bring innovative ideas to life through code and design. 
+      Let's collaborate to create efficient, visually appealing solutions that make a real impact!`,
     },
     experience: {
       p: "What I have done so far",

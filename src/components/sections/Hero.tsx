@@ -1,20 +1,24 @@
 import { motion } from "framer-motion";
-
+import React, { useState } from 'react';
 import { styles } from "../../constants/styles";
 // import { ComputersCanvas } from "../canvas";
 import { config } from "../../constants/config";
 
+import { FaGithub, FaDiscord, FaFilePdf } from 'react-icons/fa';
+
 const Hero = () => {
+  const [discordText, setDiscordText] = useState('Discord');
+
   const copyDiscord = () => {
     navigator.clipboard.writeText('andododo');
-    alert('Discord handle copied!');
+    setDiscordText('Copied!');
   };
 
   return (
     <section className={`relative mx-auto h-screen w-full`}>
       <div
         // here to change padding before hero text
-        className={`absolute inset-0 top-[220px] mx-auto max-w-7xl ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[250px] mx-auto max-w-7xl ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className="mt-5 flex flex-col items-center justify-center">
           <div className="h-5 w-5 rounded-full bg-[#915EFF]" />
@@ -31,34 +35,54 @@ const Hero = () => {
           <p className={`${styles.heroSubText}`}>
             {config.hero.description[0]}, {config.hero.description[1]}, and {config.hero.description[2]}.
           </p>
+
           <p className={`${styles.heroButtons}`}>
-            <a href="https://docs.google.com/document/d/1Hb3fM9olPqBlolEjnalYP7A4AcxsDY77j-h9x_ouucY/edit?usp=sharing" 
+            <a href="https://drive.google.com/file/d/1nEcEJzEEd1Ag_9RiWZ1D3W1v3W1aWAng/view?usp=sharing" 
               target="_blank" rel="noopener noreferrer">
-              <button className={`${styles.heroButtonsStyle} bg-[#915EFF]`}>View CV</button>
+              <motion.button 
+                className={`${styles.heroButtonsStyle} bg-[#915EFF]`}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+              >
+                <FaFilePdf size={25}/>View CV
+              </motion.button>
             </a>
             <a href="https://github.com/andododo" target="_blank" rel="noopener noreferrer">
-              <button className={`${styles.heroButtonsStyle} bg-tertiary`}>GitHub</button>
+              <motion.button 
+                className={`${styles.heroButtonsStyle} bg-tertiary`}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+              >
+                <FaGithub size={25}/>GitHub
+              </motion.button>
             </a>
-            <button className={`${styles.heroButtonsStyle} bg-tertiary`} onClick={copyDiscord}>Discord</button>
+            <motion.button className={`${styles.heroButtonsStyle} bg-tertiary`} 
+              onClick={copyDiscord}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              onMouseLeave={() => setDiscordText('Discord')}
+            >
+              <FaDiscord size={25}/>{discordText}
+            </motion.button>
           </p>
         </div>
       </div>
 
       {/* <ComputersCanvas /> */}
 
-      <div className="xs:bottom-10 absolute bottom-32 flex w-full items-center justify-center">
+      <div className="xs:bottom-100 absolute bottom-32 flex w-full items-center justify-center">
         <a href="#about">
-          <div className="border-secondary flex h-[64px] w-[35px] items-start justify-center rounded-3xl border-4 p-2">
+          <div className="border-secondary flex h-[80px] w-[40px] items-start justify-center rounded-3xl border-4 p-2">
             <motion.div
               animate={{
-                y: [0, 24, 0],
+                y: [0, 35, 0],
               }}
               transition={{
                 duration: 1.5,
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className="bg-secondary mb-1 h-3 w-3 rounded-full"
+              className="bg-secondary mb-1 h-5 w-5 rounded-full"
             />
           </div>
         </a>
