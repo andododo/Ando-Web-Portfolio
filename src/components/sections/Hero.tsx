@@ -17,12 +17,15 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">{config.hero.name}</span>
+            Hi, I'm
+            <p className="text-[#915EFF]">{config.hero.name[0]}</p>
+            <p className="text-[#915EFF]">{config.hero.name[1]}</p>
           </h1>
-          <p className={`${styles.heroSubText} text-white-100 mt-2`}>
-            {config.hero.p[0]} <br className="hidden sm:block" />
-            {config.hero.p[1]}
-          </p>
+          <h2 className={`${styles.heroSubText} text-white-100 mt-2`}>
+            <p>{config.hero.p[0]}</p>
+            <p>{config.hero.p[1]}</p>
+            <p>{config.hero.p[2]}</p>
+          </h2>
         </div>
       </div>
 

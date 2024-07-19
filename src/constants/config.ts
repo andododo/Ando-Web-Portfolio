@@ -11,7 +11,7 @@ type TConfig = {
     email: string;
   };
   hero: {
-    name: string;
+    name: string[];
     p: string[];
   };
   contact: {
@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Web Portfolio",
+    fullName: "Andrei Magbuhat",
+    email: "magbuhatjustinandrei@gmail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: ["Andrei", "Magbuhat"],
+    p: ["I am a Programmer", "Graphic Designer", "Shell Scripts Enjoyer"],
   },
   contact: {
     p: "Get in touch",
