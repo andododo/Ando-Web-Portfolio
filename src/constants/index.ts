@@ -38,6 +38,7 @@ import {
   arduino,
   raspi,
   shell,
+  canva,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -94,6 +95,10 @@ const technologies: TTechnology[] = [
   {
     name: "Figma",
     icon: figma,
+  },
+  {
+    name: "Canva",
+    icon: canva,
   },
   {
     name: "Arduino",

@@ -38,6 +38,7 @@ import illustrator from "./tech/illustrator.png";
 import arduino from "./tech/arduino.png";
 import raspi from "./tech/raspi.png";
 import shell from "./tech/shell.png";
+import canva from "./tech/canva.png";
 
 export {
   python,
@@ -47,6 +48,7 @@ export {
   arduino,
   raspi,
   shell,
+  canva,
   logo,
   backend,
   creator,
