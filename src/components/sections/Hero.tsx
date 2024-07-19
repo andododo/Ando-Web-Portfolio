@@ -8,7 +8,8 @@ const Hero = () => {
   return (
     <section className={`relative mx-auto h-screen w-full`}>
       <div
-        className={`absolute inset-0 top-[120px] mx-auto max-w-7xl ${styles.paddingX} flex flex-row items-start gap-5`}
+        // here to change padding before hero text
+        className={`absolute inset-0 top-[220px] mx-auto max-w-7xl ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className="mt-5 flex flex-col items-center justify-center">
           <div className="h-5 w-5 rounded-full bg-[#915EFF]" />
@@ -17,15 +18,14 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm
-            <p className="text-[#915EFF]">{config.hero.name[0]}</p>
-            <p className="text-[#915EFF]">{config.hero.name[1]}</p>
+            Hi, I'm <span className="text-[#915EFF]">{config.hero.name}</span>.
           </h1>
-          <h2 className={`${styles.heroSubText} text-white-100 mt-2`}>
-            <p>{config.hero.p[0]}</p>
-            <p>{config.hero.p[1]}</p>
-            <p>{config.hero.p[2]}</p>
-          </h2>
+          <p className={`${styles.heroSchool}`}>
+            A 4th year {config.hero.course} student at {config.hero.school}.
+          </p>
+          <p className={`${styles.heroSubText}`}>
+            {config.hero.description[0]}, {config.hero.description[1]}, and {config.hero.description[2]}.
+          </p>
         </div>
       </div>
 
