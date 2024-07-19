@@ -48,7 +48,7 @@ export const config: TConfig = {
   },
   hero: {
     name: "Andrei Magbuhat",
-    description: ["I am a Programmer", "Graphic Designer", "Shell Scripts Enjoyer"],
+    description: ["Programmer", "Graphic Designer", "Scripting Enjoyer"],
     course: "B.S. Information Technology",
     school: "Mapúa Malayan Colleges Laguna",
   },

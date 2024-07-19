@@ -1,10 +1,15 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../../constants/styles";
-import { ComputersCanvas } from "../canvas";
+// import { ComputersCanvas } from "../canvas";
 import { config } from "../../constants/config";
 
 const Hero = () => {
+  const copyDiscord = () => {
+    navigator.clipboard.writeText('andododo');
+    alert('Discord handle copied!');
+  };
+
   return (
     <section className={`relative mx-auto h-screen w-full`}>
       <div
@@ -26,10 +31,20 @@ const Hero = () => {
           <p className={`${styles.heroSubText}`}>
             {config.hero.description[0]}, {config.hero.description[1]}, and {config.hero.description[2]}.
           </p>
+          <p className={`${styles.heroButtons}`}>
+            <a href="https://docs.google.com/document/d/1Hb3fM9olPqBlolEjnalYP7A4AcxsDY77j-h9x_ouucY/edit?usp=sharing" 
+              target="_blank" rel="noopener noreferrer">
+              <button className={`${styles.heroButtonsStyle} bg-[#915EFF]`}>View CV</button>
+            </a>
+            <a href="https://github.com/andododo" target="_blank" rel="noopener noreferrer">
+              <button className={`${styles.heroButtonsStyle} bg-tertiary`}>GitHub</button>
+            </a>
+            <button className={`${styles.heroButtonsStyle} bg-tertiary`} onClick={copyDiscord}>Discord</button>
+          </p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       <div className="xs:bottom-10 absolute bottom-32 flex w-full items-center justify-center">
         <a href="#about">
