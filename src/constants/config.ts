@@ -79,8 +79,8 @@ export const config: TConfig = {
       Let's collaborate to create efficient, visually appealing solutions that make a real impact!`,
     },
     experience: {
-      p: "What I have done so far",
-      h2: "Work Experience.",
+      p: "What I have done so far in my OJT",
+      h2: "Practicum Experience",
     },
     feedbacks: {
       p: "What others say",

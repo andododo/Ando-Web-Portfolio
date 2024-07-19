@@ -23,7 +23,6 @@ import {
   mongodb,
   git,
   figma,
-  docker,
   meta,
   starbucks,
   tesla,
@@ -32,6 +31,13 @@ import {
   jobit,
   tripguide,
   threejs,
+  python,
+  csharp,
+  photoshop,
+  illustrator,
+  arduino,
+  raspi,
+  shell,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -70,56 +76,48 @@ const services: TService[] = [
 
 const technologies: TTechnology[] = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "CSharp",
+    icon: csharp,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Photoshop",
+    icon: photoshop,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Illustrator",
+    icon: illustrator,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Arduino",
+    icon: arduino,
+  },
+  {
+    name: "Raspi",
+    icon: raspi,
+  },
+  {
+    name: "Shell",
+    icon: shell,
+  },
+  {
+    name: "HTML",
+    icon: html,
+  },
+  {
+    name: "CSS",
+    icon: css,
+  },
+  {
+    name: "JS",
+    icon: javascript,
   },
 ];
 

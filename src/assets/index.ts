@@ -28,9 +28,25 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+
 import tripguide from "./tripguide.png";
 
+import python from "./tech/python.png";
+import csharp from "./tech/csharp.png";
+import photoshop from "./tech/photoshop.png";
+import illustrator from "./tech/illustrator.png";
+import arduino from "./tech/arduino.png";
+import raspi from "./tech/raspi.png";
+import shell from "./tech/shell.png";
+
 export {
+  python,
+  csharp,
+  photoshop,
+  illustrator,
+  arduino,
+  raspi,
+  shell,
   logo,
   backend,
   creator,
