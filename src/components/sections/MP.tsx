@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 import { github } from "../../assets";
 import { SectionWrapper } from "../../hoc";
-import { whizzy } from "../../constants";
+import { machine } from "../../constants";
 import { fadeIn } from "../../utils/motion";
 import { config } from "../../constants/config";
 import { Header } from "../atoms/Header";
@@ -63,23 +63,23 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
   );
 };
 
-const Capstone = () => {
+const MP = () => {
   return (
     <>
-      <Header useMotion={true} {...config.sections.capstone} />
+      <Header useMotion={true} {...config.sections.mp} />
 
       <div className="flex w-full">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="text-secondary mt-3 text-[17px] leading-[30px]"
         >
-          {config.sections.capstone.content}
+          {config.sections.mp.content}
         </motion.p>
       </div>
 
       <div className="flex justify-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mt-20">
-          {whizzy.map((project, index) => (
+          {machine.map((project, index) => (
             <ProjectCard key={`project-${index}`} index={index} {...project} />
           ))}
         </div>
@@ -89,4 +89,4 @@ const Capstone = () => {
   );
 };
 
-export default SectionWrapper(Capstone, "");
+export default SectionWrapper(MP, "");

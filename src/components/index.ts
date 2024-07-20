@@ -11,6 +11,8 @@ import About from "./sections/About";
 import Tech from "./sections/Tech";
 import Experience from "./sections/Experience";
 import Works from "./sections/Works";
+import MP from "./sections/MP";
+import Capstone from "./sections/Capstone";
 import Feedbacks from "./sections/Feedbacks";
 import Contact from "./sections/Contact";
 import CanvasLoader from "./layout/Loader";
@@ -20,8 +22,10 @@ export {
   Navbar,
   About,
   Tech,
+  MP,
   Experience,
   Works,
+  Capstone, 
   Feedbacks,
   Contact,
   CanvasLoader,

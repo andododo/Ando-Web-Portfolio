@@ -10,6 +10,7 @@ import {
   Tech,
   Works,
   Capstone,
+  MP,
   StarsCanvas,
 } from "./components";
 import { useEffect } from "react";
@@ -34,6 +35,7 @@ const App = () => {
         <Tech />
         <Works />
         <Capstone />
+        <MP />
         <Feedbacks />
         <div className="relative z-0">
           <Contact />

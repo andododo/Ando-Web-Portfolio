@@ -38,6 +38,7 @@ type TConfig = {
     feedbacks: TSection;
     works: Required<TSection>;
     capstone: Required<TSection>;
+    mp: Required<TSection>;
   };
 };
 
@@ -99,7 +100,17 @@ export const config: TConfig = {
     },
     capstone: {
       p: "My work",
-      h2: "OJT Projects",
+      h2: "Capstone Project",
+      content: `During my internship at Amkor Technology, I worked on several key projects that enhanced the company's IT systems and processes. 
+      My primary focus was on developing automation tools using Python, such as the CAPA Validation Tracker for the IQAT system and a Python-Excel automation tool for the Engineering department. 
+      These projects involved creating user-friendly interfaces, implementing data extraction and conversion functionalities, and producing comprehensive documentation. 
+      I also conducted User Acceptance Testing for various systems, including ATC (China) and FADMS, creating detailed user manuals in the process. 
+      Additionally, I contributed to improving existing tools, such as enhancing a PPT to PDF converter for better web integration. 
+      Throughout these projects, I honed my skills in Python programming, database management, user interface design, and technical documentation, while gaining valuable experience in adapting to corporate IT environments and collaborating with senior developers.`,
+    },
+    mp: {
+      p: "My work",
+      h2: "Machine Problem",
       content: `During my internship at Amkor Technology, I worked on several key projects that enhanced the company's IT systems and processes. 
       My primary focus was on developing automation tools using Python, such as the CAPA Validation Tracker for the IQAT system and a Python-Excel automation tool for the Engineering department. 
       These projects involved creating user-friendly interfaces, implementing data extraction and conversion functionalities, and producing comprehensive documentation. 

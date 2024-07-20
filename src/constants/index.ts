@@ -291,5 +291,93 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/andododo/Selenium-Test",
   },
 ];
+const whizzy: TProject[] = [
+  {
+    name: "Hey Whizzy",
+    description:
+      "Raspi development module for an Interactive Voice-Assistive Kiosk for School Information Access",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    sourceCodeLink: "https://github.com/Hir0su/Hey-Whizzy",
+  },
+  {
+    name: "DB Extraction Tool",
+    description:
+      "Web Admin development module for an Interactive Voice-Assistive Kiosk for School Information Access",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    sourceCodeLink: "https://github.com/Hir0su/Hey-Whizzy-Admin-Website",
+  },
+];
+const machine: TProject[] = [
+  {
+    name: "Arduino Earthquake Detection",
+    description:
+      "Codes for an Arduino main controller and MPU6050 sensor that detects vibrations.",
+    tags: [
+      {
+        name: "C#",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PHP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "C++",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    sourceCodeLink: "https://github.com/Hir0su/Earthquake-Detection",
+  },
+  {
+    name: "Arduino Guess the Pitch Game",
+    description:
+      "Web Admin development module for an Interactive Voice-Assistive Kiosk for School Information Access",
+    tags: [
+      {
+        name: "C++",
+        color: "blue-text-gradient",
+      },
+      // {
+      //   name: "HTML",
+      //   color: "green-text-gradient",
+      // },
+      // {
+      //   name: "CSS",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: jobit,
+    sourceCodeLink: "https://github.com/Hir0su/Guess-the-Pitch",
+  },
+];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, whizzy, machine };
