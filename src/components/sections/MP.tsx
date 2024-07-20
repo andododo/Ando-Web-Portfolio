@@ -89,4 +89,4 @@ const MP = () => {
   );
 };
 
-export default SectionWrapper(MP, "");
+export default SectionWrapper(MP, "machine");

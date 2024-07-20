@@ -89,4 +89,4 @@ const Capstone = () => {
   );
 };
 
-export default SectionWrapper(Capstone, "");
+export default SectionWrapper(Capstone, "whizzy");
