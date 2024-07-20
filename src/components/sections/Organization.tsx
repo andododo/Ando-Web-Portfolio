@@ -6,6 +6,7 @@ import { testimonials } from "../../constants";
 import { Header } from "../atoms/Header";
 import { TTestimonial } from "../../types";
 import { config } from "../../constants/config";
+import { SectionWrapper } from "../../hoc";
 
 const FeedbackCard: React.FC<{ index: number } & TTestimonial> = ({
   index,
@@ -44,13 +45,13 @@ const FeedbackCard: React.FC<{ index: number } & TTestimonial> = ({
   </motion.div>
 );
 
-const Feedbacks = () => {
+const Organization = () => {
   return (
     <div className="bg-black-100 mt-12 rounded-[20px]">
       <div
         className={`${styles.padding} bg-tertiary min-h-[300px] rounded-2xl`}
       >
-        <Header useMotion={true} {...config.sections.feedbacks} />
+        <Header useMotion={true} {...config.sections.organization} />
       </div>
       <div
         className={`${styles.paddingX} -mt-20 flex flex-wrap gap-7 pb-14 max-sm:justify-center`}
@@ -63,4 +64,4 @@ const Feedbacks = () => {
   );
 };
 
-export default Feedbacks;
+export default SectionWrapper(Organization, "org");

@@ -13,7 +13,7 @@ import Experience from "./sections/Experience";
 import Works from "./sections/Works";
 import MP from "./sections/MP";
 import Capstone from "./sections/Capstone";
-import Feedbacks from "./sections/Feedbacks";
+import Organization from "./sections/Organization";
 import Contact from "./sections/Contact";
 import CanvasLoader from "./layout/Loader";
 
@@ -26,7 +26,7 @@ export {
   Experience,
   Works,
   Capstone, 
-  Feedbacks,
+  Organization,
   Contact,
   CanvasLoader,
   EarthCanvas,

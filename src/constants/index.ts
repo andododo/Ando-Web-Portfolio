@@ -51,20 +51,16 @@ export const navLinks: TNavLink[] = [
     title: "Experience",
   },
   {
-    id: "ojt",
-    title: "OJT",
-  },
-  {
-    id: "whizzy",
-    title: "Capstone",
-  },
-  {
-    id: "machine",
-    title: "MP",
+    id: "proj",
+    title: "Projects",
   },
   {
     id: "cert",
     title: "Certification",
+  },
+  {
+    id: "org",
+    title: "Organization",
   },
 ];
 
@@ -194,7 +190,7 @@ const testimonials: TTestimonial[] = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+    name: "Supreme Student Council Creative Associate (SSC)",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
