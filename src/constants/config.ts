@@ -91,7 +91,7 @@ export const config: TConfig = {
     },
     organization: {
       p: "Extracurricular",
-      h2: "My Organizations",
+      h2: "Organizations",
     },
     works: {
       p: "My work",
@@ -118,12 +118,12 @@ export const config: TConfig = {
     mp: {
       p: "My work",
       h2: "Machine Problem",
-      content: `During my internship at Amkor Technology, I worked on several key projects that enhanced the company's IT systems and processes. 
-      My primary focus was on developing automation tools using Python, such as the CAPA Validation Tracker for the IQAT system and a Python-Excel automation tool for the Engineering department. 
-      These projects involved creating user-friendly interfaces, implementing data extraction and conversion functionalities, and producing comprehensive documentation. 
-      I also conducted User Acceptance Testing for various systems, including ATC (China) and FADMS, creating detailed user manuals in the process. 
-      Additionally, I contributed to improving existing tools, such as enhancing a PPT to PDF converter for better web integration. 
-      Throughout these projects, I honed my skills in Python programming, database management, user interface design, and technical documentation, while gaining valuable experience in adapting to corporate IT environments and collaborating with senior developers.`,
+      content: `During my 3rd Year, the courses focused on IoT and embedded systems using Arduino and Wemos platforms. 
+      I developed skills in microcontroller programming with the Arduino IDE, working extensively with various sensors and components. 
+      My projects involved circuit design, wireless communication, and implementing RTOS principles for efficient device operation. 
+      I gained experience in M2M communication, API development, and integration, enhancing my understanding of IoT architecture. 
+      This hands-on work improved my problem-solving skills, particularly in hardware-software integration and optimizing for resource-constrained environments. 
+      Through these projects, I acquired a comprehensive grasp of IoT system development, from sensor integration to cloud connectivity.`,
     },
   },
 };
