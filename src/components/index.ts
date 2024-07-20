@@ -13,6 +13,7 @@ import Experience from "./sections/Experience";
 import Works from "./sections/Works";
 import MP from "./sections/MP";
 import Capstone from "./sections/Capstone";
+import Certificate from "./sections/Certificate";
 import Organization from "./sections/Organization";
 import Contact from "./sections/Contact";
 import CanvasLoader from "./layout/Loader";
@@ -25,7 +26,8 @@ export {
   MP,
   Experience,
   Works,
-  Capstone, 
+  Capstone,
+  Certificate,
   Organization,
   Contact,
   CanvasLoader,

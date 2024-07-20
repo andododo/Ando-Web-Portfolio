@@ -3,7 +3,8 @@ import type {
   TService,
   TTechnology,
   TExperience,
-  TTestimonial,
+  TCertificate,
+  TOrganization,
   TProject,
 } from "../types";
 
@@ -186,9 +187,9 @@ const experiences: TExperience[] = [
   },
 ];
 
-const testimonials: TTestimonial[] = [
+const certificate: TCertificate[] = [
   {
-    testimonial:
+    description:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
     name: "Supreme Student Council Creative Associate (SSC)",
     designation: "CFO",
@@ -196,7 +197,7 @@ const testimonials: TTestimonial[] = [
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
-    testimonial:
+    description:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
     name: "Chris Brown",
     designation: "COO",
@@ -204,7 +205,34 @@ const testimonials: TTestimonial[] = [
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
-    testimonial:
+    description:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lisa Wang",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
+];
+
+const organization: TOrganization[] = [
+  {
+    description:
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    name: "Supreme Student Council Creative Associate (SSC)",
+    designation: "CFO",
+    company: "Acme Co",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
+  },
+  {
+    description:
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+  },
+  {
+    description:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
@@ -388,4 +416,4 @@ const machine: TProject[] = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects, whizzy, machine };
+export { services, technologies, experiences, certificate, organization, projects, whizzy, machine };

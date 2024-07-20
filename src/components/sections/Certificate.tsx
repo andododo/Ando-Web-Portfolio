@@ -2,13 +2,13 @@ import { motion } from "framer-motion";
 
 import { styles } from "../../constants/styles";
 import { fadeIn } from "../../utils/motion";
-import { organization } from "../../constants";
+import { certificate } from "../../constants";
 import { Header } from "../atoms/Header";
-import { TOrganization } from "../../types";
+import { TCertificate } from "../../types";
 import { config } from "../../constants/config";
 import { SectionWrapper } from "../../hoc";
 
-const FeedbackCard: React.FC<{ index: number } & TOrganization> = ({
+const FeedbackCard: React.FC<{ index: number } & TCertificate> = ({
   index,
   description,
   name,
@@ -45,18 +45,18 @@ const FeedbackCard: React.FC<{ index: number } & TOrganization> = ({
   </motion.div>
 );
 
-const Organization = () => {
+const Certificate = () => {
   return (
     <div className="bg-black-100 mt-12 rounded-[20px]">
       <div
         className={`${styles.padding} bg-tertiary min-h-[300px] rounded-2xl`}
       >
-        <Header useMotion={true} {...config.sections.organization} />
+        <Header useMotion={true} {...config.sections.certificate} />
       </div>
       <div
         className={`${styles.paddingX} -mt-20 flex flex-wrap gap-7 pb-14 max-sm:justify-center`}
       >
-        {organization.map((description, index) => (
+        {certificate.map((description, index) => (
           <FeedbackCard key={description.name} index={index} {...description} />
         ))}
       </div>
@@ -64,4 +64,4 @@ const Organization = () => {
   );
 };
 
-export default SectionWrapper(Organization, "org");
+export default SectionWrapper(Certificate, "cert");

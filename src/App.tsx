@@ -5,6 +5,7 @@ import {
   Contact,
   Experience,
   Organization,
+  Certificate,
   Hero,
   Navbar,
   Tech,
@@ -36,6 +37,7 @@ const App = () => {
         <Works />
         <Capstone />
         <MP />
+        <Certificate />
         <Organization />
         <div className="relative z-0">
           <Contact />
