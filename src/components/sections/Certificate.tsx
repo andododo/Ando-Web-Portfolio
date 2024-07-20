@@ -12,8 +12,6 @@ const FeedbackCard: React.FC<{ index: number } & TCertificate> = ({
   index,
   description,
   name,
-  designation,
-  company,
   // image,
 }) => (
   <motion.div

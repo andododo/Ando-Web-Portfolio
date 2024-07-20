@@ -1,9 +1,9 @@
-import React, { Suspense, useEffect, useState } from "react";
+import  { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import { OrbitControls, Preload } from "@react-three/drei";
 import CanvasLoader from "../layout/Loader";
 
-const ComputersCanvas = ({ isMobile }) => {
+const ComputersCanvas = ({  }) => {
   return (
     <Canvas
       frameloop="demand"
