@@ -164,8 +164,8 @@ const experiences: TExperience[] = [
     ],
   },
   {
-    title: "Figma and Canva",
-    companyName: "Meta",
+    title: "Finalization",
+    companyName: "Figma and Canva",
     icon: figma,
     iconBg: "#E6DEDD",
     date: "July 2024",
@@ -207,67 +207,88 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "DB to Excel Template",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "CLI tool that extracts data from a MySQL DB into a formatted Excel template.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CLI",
         color: "green-text-gradient",
       },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "tailwind",
+      //   color: "pink-text-gradient",
+      // },
     ],
     image: carrent,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/andododo/DB-to-Excel-Template",
   },
   {
-    name: "Job IT",
+    name: "DB Extraction Tool",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Tool that extracts all data from a DB table and place it inside an Excel sheet.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CLI",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "scss",
+      //   color: "pink-text-gradient",
+      // },
     ],
     image: jobit,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/andododo/DB-Extraction-Tool",
   },
   {
-    name: "Trip Guide",
+    name: "PPT to PDF Tool",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A simple Excel .pptx to .pdf document tool that is launched in the web.",
     tags: [
       {
-        name: "nextjs",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Web",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "css",
+      //   color: "pink-text-gradient",
+      // },
     ],
     image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/andododo/PPT-to-PDF-Tool",
+  },
+  {
+    name: "Selenium Test",
+    description:
+      "Part of my orientation and training, a simple test using Selenium automation.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Web",
+        color: "green-text-gradient",
+      },
+      // {
+      //   name: "css",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: tripguide,
+    sourceCodeLink: "https://github.com/andododo/Selenium-Test",
   },
 ];
 
