@@ -40,6 +40,14 @@ import {
   raspi,
   shell,
   canva,
+  selenium,
+  pptpdf,
+  ppttemplate,
+  extraction,
+  whizzyraspi,
+  whizzyweb,
+  earthquake,
+  pitch,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -252,7 +260,7 @@ const projects: TProject[] = [
       //   color: "pink-text-gradient",
       // },
     ],
-    image: carrent,
+    image: ppttemplate,
     sourceCodeLink: "https://github.com/andododo/DB-to-Excel-Template",
   },
   {
@@ -273,7 +281,7 @@ const projects: TProject[] = [
       //   color: "pink-text-gradient",
       // },
     ],
-    image: jobit,
+    image: extraction,
     sourceCodeLink: "https://github.com/andododo/DB-Extraction-Tool",
   },
   {
@@ -294,7 +302,7 @@ const projects: TProject[] = [
       //   color: "pink-text-gradient",
       // },
     ],
-    image: tripguide,
+    image: pptpdf,
     sourceCodeLink: "https://github.com/andododo/PPT-to-PDF-Tool",
   },
   {
@@ -315,7 +323,7 @@ const projects: TProject[] = [
       //   color: "pink-text-gradient",
       // },
     ],
-    image: tripguide,
+    image: selenium,
     sourceCodeLink: "https://github.com/andododo/Selenium-Test",
   },
 ];
@@ -338,11 +346,11 @@ const whizzy: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: whizzyraspi,
     sourceCodeLink: "https://github.com/Hir0su/Hey-Whizzy",
   },
   {
-    name: "DB Extraction Tool",
+    name: "Hey Whizzy Admin",
     description:
       "Web Admin development module for an Interactive Voice-Assistive Kiosk for School Information Access",
     tags: [
@@ -359,7 +367,7 @@ const whizzy: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: whizzyweb,
     sourceCodeLink: "https://github.com/Hir0su/Hey-Whizzy-Admin-Website",
   },
 ];
@@ -382,7 +390,7 @@ const machine: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: earthquake,
     sourceCodeLink: "https://github.com/Hir0su/Earthquake-Detection",
   },
   {
@@ -403,7 +411,7 @@ const machine: TProject[] = [
       //   color: "pink-text-gradient",
       // },
     ],
-    image: jobit,
+    image: pitch,
     sourceCodeLink: "https://github.com/Hir0su/Guess-the-Pitch",
   },
 ];

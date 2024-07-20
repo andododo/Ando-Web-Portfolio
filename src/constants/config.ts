@@ -106,12 +106,14 @@ export const config: TConfig = {
     capstone: {
       p: "My work",
       h2: "Capstone Project",
-      content: `During my internship at Amkor Technology, I worked on several key projects that enhanced the company's IT systems and processes. 
-      My primary focus was on developing automation tools using Python, such as the CAPA Validation Tracker for the IQAT system and a Python-Excel automation tool for the Engineering department. 
-      These projects involved creating user-friendly interfaces, implementing data extraction and conversion functionalities, and producing comprehensive documentation. 
-      I also conducted User Acceptance Testing for various systems, including ATC (China) and FADMS, creating detailed user manuals in the process. 
-      Additionally, I contributed to improving existing tools, such as enhancing a PPT to PDF converter for better web integration. 
-      Throughout these projects, I honed my skills in Python programming, database management, user interface design, and technical documentation, while gaining valuable experience in adapting to corporate IT environments and collaborating with senior developers.`,
+      content: `This study aims to develop an interactive voice-assistive kiosk, "Hey Whizzy," capable of providing easy access to school information, enhancing user interaction, and supporting campus navigation. 
+      Additionally, a web application was created to support specific functionalities such as managing a knowledge base and disseminating real-time updates. 
+      The kiosk leverages Google Assistant to facilitate dynamic communication between users and the system. 
+      The aim of this study is to improve information accessibility at Mapúa Malayan Colleges Laguna, aligning with the institution's commitment to innovative educational technologies. 
+      The developed kiosk serves as an additional tool that fosters interaction among students, faculty, and visitors, provides easy access to information, and improves campus navigation through its voice command features and user-friendly interface. 
+      The outcome of this project aims to enhance the information dissemination experience by leveraging advanced technologies to create a more interactive and streamlined campus environment. 
+      The developers recommended upgrading to a Raspberry Pi 5 for better performance, exploring third-party hosting solutions to enhance the system further. 
+      Positive reception and support from users emphasize the feasibility of integrating this system into the existing infrastructure of Mapúa Malayan Colleges Laguna.`,
     },
     mp: {
       p: "My work",

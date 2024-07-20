@@ -28,6 +28,14 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+import selenium from "./selenium.jpg";
+import pptpdf from "./ppt-pdf.jpg";
+import ppttemplate from "./ppt-template.png";
+import extraction from "./extraction.jpg";
+import whizzyraspi from "./whizzy-raspi.png";
+import whizzyweb from "./whizzy-web.jpg";
+import earthquake from "./earthquake.jpg";
+import pitch from "./pitch.jpg";
 
 import tripguide from "./tripguide.png";
 
@@ -41,6 +49,14 @@ import shell from "./tech/shell.png";
 import canva from "./tech/canva.png";
 
 export {
+  earthquake,
+  pitch,
+  whizzyraspi,
+  whizzyweb,
+  selenium,
+  pptpdf,
+  ppttemplate,
+  extraction,
   python,
   csharp,
   photoshop,

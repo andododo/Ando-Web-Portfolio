@@ -4,14 +4,19 @@ import { styles } from "../../constants/styles";
 // import { ComputersCanvas } from "../canvas";
 import { config } from "../../constants/config";
 
-import { FaGithub, FaDiscord, FaFilePdf } from 'react-icons/fa';
+import { FaGithub, FaDiscord, FaFilePdf, FaMailBulk} from 'react-icons/fa';
 
 const Hero = () => {
   const [discordText, setDiscordText] = useState('Discord');
+  const [emailText, setEmailText] = useState('Email');
 
   const copyDiscord = () => {
     navigator.clipboard.writeText('andododo');
     setDiscordText('Copied!');
+  };
+  const copyEmail = () => {
+    navigator.clipboard.writeText('magbuhatjustinandrei@gmail.com');
+    setEmailText('Copied!');
   };
 
   return (
@@ -63,6 +68,14 @@ const Hero = () => {
               onMouseLeave={() => setDiscordText('Discord')}
             >
               <FaDiscord size={25}/>{discordText}
+            </motion.button>
+            <motion.button className={`${styles.heroButtonsStyle} bg-tertiary`} 
+              onClick={copyEmail}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              onMouseLeave={() => setEmailText('Email')}
+            >
+              <FaMailBulk size={25}/>{emailText}
             </motion.button>
           </p>
         </div>
