@@ -190,24 +190,24 @@ const experiences: TExperience[] = [
 const certificate: TCertificate[] = [
   {
     description:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Supreme Student Council Creative Associate (SSC)",
+      "NSE 1 Network Security Associate",
+    name: "IT128",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     description:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "Python Beginner Programming",
+    name: "DICT",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     description:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "Python Intermediate Programming",
+    name: "DICT",
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
@@ -217,27 +217,19 @@ const certificate: TCertificate[] = [
 const organization: TOrganization[] = [
   {
     description:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Helped create publication materials for the SSC Facebook page, assisted with event preparations as a volunteer, and was frequently assigned to the technical team for events.",
     name: "Supreme Student Council Creative Associate (SSC)",
-    designation: "CFO",
-    company: "Acme Co",
+    designation: "2022-2023",
+    company: "Mapúa Malayan Colleges Laguna",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     description:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Produced engaging publication materials for the CCIS Facebook page, designed logos and T-shirt graphics for CCIS events, and organized a successful type racing event as part of the CCIS Week.",
+    name: "CCIS Student Council (SSC Rep and Creative Head)",
+    designation: "2022-2023",
+    company: "Mapúa Malayan Colleges Laguna",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    description:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
