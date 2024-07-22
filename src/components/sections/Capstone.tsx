@@ -1,5 +1,4 @@
 import Tilt from "react-parallax-tilt";
-import { motion } from "framer-motion";
 
 import { github } from "../../assets";
 import { SectionWrapper } from "../../hoc";
@@ -9,6 +8,30 @@ import { config } from "../../constants/config";
 import { Header } from "../atoms/Header";
 import { TProject } from "../../types";
 
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+
+const ImageModal: React.FC<{ image: string; onClose: () => void }> = ({ image, onClose }) => {
+  return (
+    <motion.div
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      exit={{ opacity: 0, scale: 0.5 }}
+      transition={{ duration: 0.3 }}
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75"
+    >
+      <div className="relative">
+        <img src={image} alt="Full-sized" className="max-h-[80vh] max-w-[80vw] object-contain" />
+        <button
+          onClick={onClose}
+          className="absolute top-4 right-4 rounded-full bg-white p-2 text-black hover:bg-gray-200"
+        >
+          Close
+        </button>
+      </div>
+    </motion.div>
+  );
+};
 const ProjectCard: React.FC<{ index: number } & TProject> = ({
   index,
   name,
@@ -17,7 +40,18 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
   image,
   sourceCodeLink,
 }) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleImageClick = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
+  
   return (
+    
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         glareEnable
@@ -26,7 +60,10 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
         tiltMaxAngleY={30}
         glareColor="#aaa6c3"
       >
-        <div className="bg-tertiary w-full rounded-2xl p-5 sm:w-[300px]">
+        <div 
+          className="bg-tertiary w-full rounded-2xl p-5 sm:w-[300px] cursor-pointer"
+          onClick={handleImageClick}
+        >
           <div className="relative h-[230px] w-full">
             <img
               src={image}
@@ -59,6 +96,9 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
           </div>
         </div>
       </Tilt>
+      <AnimatePresence>
+        {isModalOpen && <ImageModal image={image} onClose={handleCloseModal} />}
+      </AnimatePresence>
     </motion.div>
   );
 };
