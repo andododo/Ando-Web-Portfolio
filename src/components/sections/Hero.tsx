@@ -8,15 +8,10 @@ import { FaGithub, FaDiscord, FaFilePdf, FaMailBulk, FaLinkedin} from 'react-ico
 
 const Hero = () => {
   const [discordText, setDiscordText] = useState('Discord');
-  const [emailText, setEmailText] = useState('Email');
 
   const copyDiscord = () => {
     navigator.clipboard.writeText('andododo');
     setDiscordText('Copied!');
-  };
-  const copyEmail = () => {
-    navigator.clipboard.writeText('magbuhatjustinandrei@gmail.com');
-    setEmailText('Copied!');
   };
 
   return (
