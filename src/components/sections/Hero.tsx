@@ -4,7 +4,7 @@ import { styles } from "../../constants/styles";
 // import { ComputersCanvas } from "../canvas";
 import { config } from "../../constants/config";
 
-import { FaGithub, FaDiscord, FaFilePdf, FaMailBulk} from 'react-icons/fa';
+import { FaGithub, FaDiscord, FaFilePdf, FaMailBulk, FaLinkedin} from 'react-icons/fa';
 
 const Hero = () => {
   const [discordText, setDiscordText] = useState('Discord');
@@ -42,7 +42,7 @@ const Hero = () => {
           </p>
 
           <p className={`${styles.heroButtons}`}>
-            <a href="https://drive.google.com/file/d/1nEcEJzEEd1Ag_9RiWZ1D3W1v3W1aWAng/view?usp=sharing" 
+            <a href="https://docs.google.com/document/d/1Hb3fM9olPqBlolEjnalYP7A4AcxsDY77j-h9x_ouucY/edit?usp=sharing" 
               target="_blank" rel="noopener noreferrer">
               <motion.button 
                 className={`${styles.heroButtonsStyle} bg-[#915EFF]`}
@@ -50,6 +50,15 @@ const Hero = () => {
                 whileTap={{ scale: 0.9 }}
               >
                 <FaFilePdf size={25}/>View CV
+              </motion.button>
+            </a>
+            <a href="https://www.linkedin.com/in/jamagbuhat" target="_blank" rel="noopener noreferrer">
+              <motion.button 
+                className={`${styles.heroButtonsStyle} bg-tertiary`}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+              >
+                <FaLinkedin size={25}/>LinkedIn
               </motion.button>
             </a>
             <a href="https://github.com/andododo" target="_blank" rel="noopener noreferrer">
@@ -69,14 +78,15 @@ const Hero = () => {
             >
               <FaDiscord size={25}/>{discordText}
             </motion.button>
-            <motion.button className={`${styles.heroButtonsStyle} bg-tertiary`} 
-              onClick={copyEmail}
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-              onMouseLeave={() => setEmailText('Email')}
-            >
-              <FaMailBulk size={25}/>{emailText}
-            </motion.button>
+            <a href="mailto:magbuhatjustinandrei@gmail.com" target="_blank" rel="noopener noreferrer">
+              <motion.button 
+                className={`${styles.heroButtonsStyle} bg-tertiary`}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+              >
+                <FaMailBulk size={25}/>Email
+              </motion.button>
+            </a>
           </p>
         </div>
       </div>
