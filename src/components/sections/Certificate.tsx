@@ -12,16 +12,21 @@ const FeedbackCard: React.FC<{ index: number } & TCertificate> = ({
   index,
   description,
   name,
-  // image,
+  image,
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className="bg-black-200 xs:w-[320px] w-full rounded-3xl p-10"
+    className="bg-black-200 xs:w-[320px] w-full rounded-3xl p-6 "
   >
-    <div className="mt-1">
-      <p className="font-bold text-[20px] tracking-wider text-white">{description}</p>
+    <div className="mt-1 relative w-full">
+      <img
+        src={image}
+        className="h-full w-full rounded-2xl object-cover"
+      />
+      <p className="mt-7 font-bold text-[20px] tracking-wider text-white">{description}</p>
 
       <div className="mt-7 flex items-center justify-between gap-1">
+        
         <div className="flex flex-1 flex-col">
           <p className="text-[16px] font-medium text-white">
             <span className="blue-text-gradient">@</span> {name}
@@ -31,11 +36,7 @@ const FeedbackCard: React.FC<{ index: number } & TCertificate> = ({
           </p> */}
         </div>
 
-        {/* <img
-          src={image}
-          alt={`feedback_by-${name}`}
-          className="h-10 w-10 rounded-full object-cover"
-        /> */}
+        
       </div>
     </div>
   </motion.div>

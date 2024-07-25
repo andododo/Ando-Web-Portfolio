@@ -48,7 +48,18 @@ import raspi from "./tech/raspi.png";
 import shell from "./tech/shell.png";
 import canva from "./tech/canva.png";
 
+import nse1 from "./cert/nse1.jpg";
+import pythonbeginner from "./cert/pythonbeginner.jpg";
+import pythonintermediate from "./cert/pythonintermediate.jpg";
+import codechum from "./cert/codechum.jpg";
+import techteam from "./cert/techteam.jpg";
+
 export {
+  nse1,
+  pythonbeginner,
+  pythonintermediate,
+  codechum,
+  techteam,
   earthquake,
   pitch,
   whizzyraspi,

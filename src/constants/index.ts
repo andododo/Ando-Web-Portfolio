@@ -34,7 +34,13 @@ import {
   whizzyweb,
   earthquake,
   pitch,
+  nse1,
+  pythonbeginner,
+  pythonintermediate,
+  codechum,
+  techteam,
 } from "../assets";
+import { code } from "three/examples/jsm/nodes/Nodes.js";
 
 export const navLinks: TNavLink[] = [
   {
@@ -187,24 +193,40 @@ const certificate: TCertificate[] = [
       "NSE 1 Network Security Associate",
     name: "IT128",
     designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    company: "",
+    image: nse1,
   },
   {
     description:
       "Python Beginner Programming",
     name: "DICT",
     designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    company: "",
+    image: pythonbeginner,
   },
   {
     description:
       "Python Intermediate Programming",
     name: "DICT",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "",
+    image: pythonintermediate,
+  },
+  {
+    description:
+      "Codechum",
+    name: "DICT",
+    designation: "CTO",
+    company: "",
+    image: codechum,
+  },
+  {
+    description:
+      "Tech Team",
+    name: "DICT",
+    designation: "CTO",
+    company: "",
+    image: techteam,
   },
 ];
 
