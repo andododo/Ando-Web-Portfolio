@@ -40,7 +40,6 @@ import {
   codechum,
   techteam,
 } from "../assets";
-import { code } from "three/examples/jsm/nodes/Nodes.js";
 
 export const navLinks: TNavLink[] = [
   {
