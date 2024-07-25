@@ -24,7 +24,7 @@ const ImageModal: React.FC<{ image: string; onClose: () => void }> = ({ image, o
         <img src={image} alt="Full-sized" className="max-h-[80vh] max-w-[80vw] object-contain" />
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 rounded-full bg-white p-2 text-black hover:bg-gray-200"
+          className="absolute top-4 right-4 rounded-full bg-red-500 p-2 text-white hover:bg-red-400"
         >
           Close
         </button>

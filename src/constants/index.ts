@@ -214,16 +214,16 @@ const certificate: TCertificate[] = [
   },
   {
     description:
-      "Codechum",
-    name: "DICT",
+      "Codechum Python Course",
+    name: "Codechum",
     designation: "CTO",
     company: "",
     image: codechum,
   },
   {
     description:
-      "Tech Team",
-    name: "DICT",
+      "Technical Committee Volunteer",
+    name: "CGC",
     designation: "CTO",
     company: "",
     image: techteam,
