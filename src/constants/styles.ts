@@ -10,9 +10,9 @@ export const styles = {
   heroSubText:
     "text-whitefont font-light lg:text-[23px] sm:text-[23px] xs:text-[17px] text-[13px] lg:leading-[40px] mt-4",
   heroButtons:
-    "flex flex-col items-center space-y-3 sm:flex-row sm:space-y-0 sm:space-x-5 mt-8",
+    "flex flex-wrap sm:flex-row mt-8 gap-2 mt-4",
   heroButtonsStyle:
-    "w-[150px] h-[50px] font-medium rounded-[10px] flex items-center justify-evenly px-5 py-3 leading-none",
+    "w-[150px] h-[50px] font-medium rounded-[10px] flex items-center justify-evenly px-5 py-3",
   
   sectionHeadText:
     "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
