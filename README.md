@@ -18,3 +18,6 @@ git add .
 git commit -m "update"
 git push -u origin main
 ```
+
+### Notes
+I would update this soon for my that would be better for job hunting. For now it's designed for a presentation. Also, some parts of the UI is not mobile-optimized. I will fix that soon. 
