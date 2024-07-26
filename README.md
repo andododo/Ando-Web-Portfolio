@@ -8,7 +8,7 @@ https://github.com/ladunjexa/reactjs18-3d-portfolio
 ```shell
 git clone https://github.com/ladunjexa/reactjs18-3d-portfolio
 ```
-2.  Install dependencies (make sure you have npm installed in your system first).
+2.  Install dependencies on correct *directory* (make sure you have npm installed in your system first).
 ```shell
 npm install
 ```
