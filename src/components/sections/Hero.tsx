@@ -37,7 +37,7 @@ const Hero = () => {
           </p>
 
           <div className={`${styles.heroButtons}`}>
-            <a href="https://docs.google.com/document/d/1Hb3fM9olPqBlolEjnalYP7A4AcxsDY77j-h9x_ouucY/edit?usp=sharing" 
+            <a href="https://docs.google.com/document/d/1rlHqpKuo-S-8UcqrMUMOQGL_No1Fb1Lyy40bDCSmq0A/edit?usp=sharing" 
               target="_blank" rel="noopener noreferrer">
               <motion.button 
                 className={`${styles.heroButtonsStyle} bg-[#915EFF]`}
