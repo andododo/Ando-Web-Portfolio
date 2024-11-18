@@ -73,7 +73,7 @@ const Hero = () => {
             >
               <FaDiscord size={25}/>{discordText}
             </motion.button>
-            <a href="mailto:magbuhatjustinandrei@gmail.com" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:jamagbuhat@gmail.com" target="_blank" rel="noopener noreferrer">
               <motion.button 
                 className={`${styles.heroButtonsStyle} bg-tertiary`}
                 whileHover={{ scale: 1.1 }}
