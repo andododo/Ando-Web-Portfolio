@@ -32,6 +32,7 @@ import {
   extraction,
   whizzyraspi,
   whizzyweb,
+  whizzywindows,
   earthquake,
   pitch,
   nse1,
@@ -338,7 +339,7 @@ const whizzy: TProject[] = [
   {
     name: "Hey Whizzy",
     description:
-      "Raspi development module for an Interactive Voice-Assistive Kiosk for School Information Access",
+      "Raspi development module for an Interactive Voice-Assistive Kiosk for School Information Access.",
     tags: [
       {
         name: "Python",
@@ -359,7 +360,7 @@ const whizzy: TProject[] = [
   {
     name: "Hey Whizzy Admin",
     description:
-      "Web Admin development module for an Interactive Voice-Assistive Kiosk for School Information Access",
+      "Web Admin development module for an Interactive Voice-Assistive Kiosk for School Information Access.",
     tags: [
       {
         name: "Python",
@@ -376,6 +377,27 @@ const whizzy: TProject[] = [
     ],
     image: whizzyweb,
     sourceCodeLink: "https://github.com/Hir0su/Hey-Whizzy-Admin-Website",
+  },
+  {
+    name: "Hey Whizzy - Windows",
+    description:
+      "The Windows port of Hey Whizzy Capstone Project. Submitted alongisde the final manuscript.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: whizzywindows,
+    sourceCodeLink: "https://github.com/andododo/Hey-Whizzy-Windows-Port",
   },
 ];
 const machine: TProject[] = [

@@ -84,7 +84,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
             </div>
           </div>
           <div className="mt-5">
-            <h3 className="text-[24px] font-bold text-white">{name}</h3>
+            <h3 className="text-[22px] font-bold text-white">{name}</h3>
             <p className="text-secondary mt-2 text-[14px]">{description}</p>
           </div>
           <div className="mt-4 flex flex-wrap gap-2">
@@ -118,7 +118,7 @@ const Capstone = () => {
       </div>
 
       <div className="flex justify-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mt-20">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 mt-20">
           {whizzy.map((project, index) => (
             <ProjectCard key={`project-${index}`} index={index} {...project} />
           ))}

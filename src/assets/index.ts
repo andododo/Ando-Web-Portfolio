@@ -34,6 +34,7 @@ import ppttemplate from "./ppt-template.png";
 import extraction from "./extraction.jpg";
 import whizzyraspi from "./whizzy-raspi.png";
 import whizzyweb from "./whizzy-web.jpg";
+import whizzywindows from "./whizzy-windows.jpg";
 import earthquake from "./earthquake.jpg";
 import pitch from "./pitch.jpg";
 
@@ -64,6 +65,7 @@ export {
   pitch,
   whizzyraspi,
   whizzyweb,
+  whizzywindows,
   selenium,
   pptpdf,
   ppttemplate,
