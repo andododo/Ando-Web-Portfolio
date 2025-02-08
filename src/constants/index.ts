@@ -404,44 +404,44 @@ const machine: TProject[] = [
   {
     name: "Arduino Earthquake Detection",
     description:
-      "Codes for an Arduino main controller and MPU6050 sensor that detects vibrations.",
+      "Arduino-Wemos controller and MPU6050 sensor that detects vibrations. Data can be seen in an Android App.",
     tags: [
       {
-        name: "C#",
+        name: "Arduino",
         color: "blue-text-gradient",
       },
       {
-        name: "PHP",
+        name: "MPU6050",
         color: "green-text-gradient",
       },
       {
-        name: "C++",
+        name: "Android",
         color: "pink-text-gradient",
       },
     ],
     image: earthquake,
-    sourceCodeLink: "https://github.com/Hir0su/Earthquake-Detection",
+    sourceCodeLink: "https://github.com/andododo/Earthquake-Detection",
   },
   {
     name: "Arduino Guess the Pitch Game",
     description:
-      "Web Admin development module for an Interactive Voice-Assistive Kiosk for School Information Access",
+      "Fun game using an Arduino controller and buttons. Uses RTOS functionality for handling of the game.",
     tags: [
       {
-        name: "C++",
+        name: "Arduino",
         color: "blue-text-gradient",
       },
-      // {
-      //   name: "HTML",
-      //   color: "green-text-gradient",
-      // },
+      {
+        name: "RTOS",
+        color: "green-text-gradient",
+      },
       // {
       //   name: "CSS",
       //   color: "pink-text-gradient",
       // },
     ],
     image: pitch,
-    sourceCodeLink: "https://github.com/Hir0su/Guess-the-Pitch",
+    sourceCodeLink: "https://github.com/andododo/Guess-The-Pitch",
   },
 ];
 

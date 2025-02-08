@@ -20,5 +20,6 @@ git commit -m "update"
 git push -u origin main
 ```
 
-### Notes
-Some parts of the UI is not mobile-optimized. I will fix that soon. 
+### Future Fixes
+- Some parts of the UI is not mobile-optimized.
+- Viewing of Github codes is a bit buggy.
