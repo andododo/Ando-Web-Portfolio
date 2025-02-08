@@ -83,6 +83,13 @@ const Hero = () => {
               </motion.button>
             </a>
           </div>
+
+          <p className={`${styles.heroCredit}`}>
+              <a href= "https://github.com/ladunjexa/reactjs18-3d-portfolio">
+              Public Template by ladunjexa
+              </a>
+          </p>
+          
         </div>
       </div>
     </section>

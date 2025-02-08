@@ -13,6 +13,8 @@ export const styles = {
     "flex flex-wrap sm:flex-row mt-8 gap-2 mt-4",
   heroButtonsStyle:
     "w-[150px] h-[50px] font-medium rounded-[10px] flex items-center justify-evenly px-5 py-3",
+  heroCredit:
+    "text-[#915EFF] font-regular lg:text-[18px] sm:text-[18px] xs:text-[13px] text-[10px] lg:leading-[50px] mt-10",
   
   sectionHeadText:
     "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
